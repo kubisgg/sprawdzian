@@ -7,16 +7,6 @@
 
     $conn = mysqli_connect($server, $user, $pass, $db);
 
-    // $query = "SELECT * FROM `elementy`";
-    // $result = mysqli_query($conn, $query) or die();
-
-    // $elementy = array();
-    // if (mysqli_num_rows($result) > 0) {
-    //     while($row = mysqli_fetch_assoc($result)) {
-    //         $elementy[] = $row;
-    //     }
-    // }
-
 ?>
 
 <!DOCTYPE html>
@@ -130,15 +120,3 @@
 
 </body>
 </html>
-
-<?php
-
-    // if(isset($_POST['wykuj'])) {
-
-    //     $query = mysqli_prepare($conn, "INSERT INTO zanpakuto (imie, wybudzenie, element) VALUES (?, ?, ?)");
-    //     mysqli_stmt_bind_param($query, 'ssi', $_POST['imie'], $_POST['wybudzenie'], $_POST['element']);
-    //     mysqli_stmt_execute($query) or die();
-
-    // }
-
-?>
